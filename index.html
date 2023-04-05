@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+	<script src="model.js"></script>
+</head>
+<body>
+	<header>
+	
+
+		<nav class="navbar">
+			<div class="brand-title">Dennis Technologies</div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			  </a>
+			<div class="navbar-links">
+			
+
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<div class="aboutme">
+			<img src="profilepic.jpg">
+			<p>I am a striver for success in all departments related to web development.My journey started as a litttle boy fascinated with upcoming technologies during the advent of smartphones.I needed to get my hands on a smartphone so that i could watch youtube videos.On youtube I got exposed to a greater world than i had ever imagined.Tutorials on accomplishing basic tasks like downloading movies spiralled into getting to know how devices work.Later in life i decided to pursue a course in Information Technology where i deep dived into programmming and databases.I then got into web development as a fullstack developer in the odin project.Here i am making my portfolio website </p>
+		    </div>
+		</section>
+		<section id="skills">
+			<h2>Skilled Languages</h2>
+			<ul id="myskills">
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>Bootstrap</li>
+			</ul>
+			<table>
+				<tr>
+					<th>Language</th>
+					<th>Proficiency</th>
+				</tr>
+				<tr>
+					<td>HTML5</td>
+					<td>
+						<div class="skill-bar">
+							<div class="skill-level" style="width: 90%;">Expert</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>CSS3</td>
+					<td>
+						<div class="skill-bar">
+							<div class="skill-level" style="width: 80%;">Advanced</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td>
+						<div class="skill-bar">
+							<div class="skill-level" style="width: 60%;">Intermediate</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>jQuery</td>
+					<td>
+						<div class="skill-bar">
+							<div class="skill-level" style="width: 60%;">Intermediate</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Bootstrap</td>
+					<td>
+						<div class="skill-bar">
+							<div class="skill-level" style="width: 80%;">Advanced</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<img src="project1.jpeg">
+				<h3>Android development</h3>
+				<p>I have interacted with android development in java and i have created a chat app which can detect vulgar language in the chat app and prevent users from sending vulgar language</p>
+				<a href="https://github.com/DennisMuturi-prog/projectlandingpage.git">View Project</a>
+			</div>
+			<div class="project">
+				<img src="project2.jpeg">
+				<h3>Web development</h3>
+				<p>I have created a website which is a landing page for a business to showcase their inventory and advertise themselves.</p>
+				<a href="https://github.com/DennisMuturi-prog/projectlandingpage.git">View Project</a>
+			</div>
+		</section>
+		<section id="contact">
+			
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+			<div class="social">
+				<h1>My Social media </h1>
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+				<a href="https://twitter.com/login?lang=en"><i class="fab fa-twitter"></i></a>
+				<a href="https://mail.yahoo.com/"><i class="fab fa-yahoo"></i></a>
+           </div>
+		</section>
+		<section>
+			<h1>An Imagemap of the devices i use</h1>
+			<img src="myimagemap.jpeg" alt="imagemap" usemap="#workmap" >
+
+            <map name="workmap">
+             <area shape="rect" coords="49,27,527,514" alt="Computer" href="https://www.apple.com/ke/macbook-air/">
+             <area shape="rect" coords="555,292,841,524" alt="ipad" href="https://www.apple.com/ke/ipad/">
+             <area shape="rect" coords="846,383,984,521" alt="iphone" href="https://www.apple.com/ke/iphone/">
+           </map>
+		</section>
+		<section >
+			<h1>MY HOBBIES</h1>
+			<div style="display: flex;gap:50px;">
+			<div><h2>Developing systems</h2>
+			
+       <video controls autoplay>
+	<source src="compressed.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+      </video>
+     
+
+</div>
+<div><h2>Playing basketball</h2>
+	<img src="basketball.webp" alt="imagemap" >
+</div>
+</div>
+</section>
+	</main>
+	<div id="container"></div>
+	<footer>
+		<p>&copy; 2023 My Portfolio</p>
+	</footer>
+	
+	<button class="scroll-to-top"><i class="material-icons">arrow_upward</i></button>
+
+	
+</body>
+</html>
