@@ -62,7 +62,7 @@ body{
 @media (max-width: 720px) {
   html,body{
     overflow: hidden;
-      width:100%;
+     
   }
   
     .navbar {
